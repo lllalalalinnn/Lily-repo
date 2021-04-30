@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+        <meta charset="uft-8" >
+        <link href="style.css" type="text/css" rel="stylesheet"/>
+        <title>ลิลลี่ที่ไม่ใช่ครูภาษาไทย's website yoho</title>
+    </head>
+    <body>
+        <h1 id="olive">Welcome to my websiteครับท่านสมาชิก</h1>
+        <center><img src="thumbnail_Image.jpg" width="150"></center>
+        <h1 id="sud">ลิลลดา เกียรติดำรงวงศ์</h1>>
+        <h2 id="yay">animation ทำเองครับเจ๋งป้ะ</h2>
+        <h2 id="veryGud">โรงเรียน KMIDS</h2>
+       <center> <input type="text" id="name"/>
+        <button id="demo">ส่งความเห็น</button>
+        </center>
+        <script>
+            document.getElementById("demo").addEventListener("click", btnClick);
+            
+            function btnClick() {
+                window.alert("ขอบคุณสำหรับความคิดเห็นครับท่านสมาชิก ขอให้ไม่เจ็บไม่จนคร๊ะ");
+            }
+            </script> 
+    <script>
+            consloe.log("Hello CESCa#16")
+            </script> 
+
+        <a-scene>
+            <a-plane color="pink" height="5" width="5"
+                position="-5 2.5 -10">
+                
+            </a-plane>
+            
+            <!-- Plane rotated 45 degrees backwards
+                about the x axis -->
+            <a-plane color="red" height="5" width="5"
+                position="1 2.5 -10" rotation="-45 0 0">
+                
+            </a-plane>
+            
+            <!-- Plane rotated 30 degrees to the right
+                about the z axis -->
+            <a-plane color="green" height="3" width="3"
+                position="8 2.5 -10"
+                rotation="0 0 30">
+                
+            </a-plane>
+
+            <!-- Ground -->
+            <a-plane color="black" position="0 0 0"
+                width="100" height="100"
+                rotation="-90 0 0">
+                    
+            </a-plane>
+        </a-scene>
+    </body>
+</html>
